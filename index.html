@@ -22,7 +22,7 @@
                 <p class="name" style="text-align: center;">
                   Sarah (Hyojin) Lee
                 </p>
-    <p>I'm a ML engineer at <a href="https://developer.samsung.com/health">Samsung Electronics Digital Health Team</a> in Suwon, South Korea. My Research interest lies in developing machine learning model for monitoring and improving general health, especially <strong>sleep</strong>.</p>
+    <p>I'm a ML engineer at <a href="https://developer.samsung.com/health">Digital Health Team</a>, Samsung Electronics in South Korea. My Research interest lies in developing machine learning model for monitoring and improving general health, especially <strong>sleep</strong>.</p>
 		<p>At Digital Health Team, I am developing ML algorithms for <a href="https://news.samsung.com/global/samsung-expands-global-availability-of-sleep-apnea-feature-on-galaxy-watch-series">sleep apnea</a> and sleep staging. Also, I am working on developing health foundation models for diverse health-related downstream tasks using wearable sensor data. I am part of Samsung Sponsored Research with MIT Media Lab which includes <a href="https://www.media.mit.edu/projects/sleep-entrainment/overview/">Sleep Entrainment</a> and <a href="https://www.media.mit.edu/projects/AC-sleep-study/overview/">Digital Biomarker for Sleep</a>.</p>
 		<p>Previously, I did my Masters at <a href="https://gsds.snu.ac.kr/">Seoul National University Graduate School of Data Science</a>, where I was advised by <a href="https://aiot.snu.ac.kr/">Hyung-Sin Kim</a>. I also co-advised by <a href="https://biomed.snu.ac.kr/en/research-faculty/faculty?mode=view&profidx=23">Hyun-woo Shin</a>, a professor in Seoul National University College of Medicine/Seoul National University Hospital.</p>
     <p>Before that, I received Bachelor's degree in Biology and Business Administration in <a href="https://cls.snu.ac.kr/en/">Seoul National University</a>.</p>
@@ -46,10 +46,10 @@
                 <h2>News</h2>
                 <p></p>
                   <ul class="news">
-                  <li><strong>05/2025</strong> — Started full-time mahcine learning engineer at <a href="https://www.samsung.com/us/support/owners/app/samsung-health">Digital Health Team, Samsung Electronics</a></li>
+                  <li><strong>05/2025</strong> — Started full-time mahcine learning engineer at <a href="https://www.samsung.com/us/support/owners/app/samsung-health">Digital Health Team</a>, Samsung Electronics</li>
                   <li><strong>01/2025</strong> — Paper on <a href="https://onlinelibrary.wiley.com/doi/10.1111/jsr.14290">interpretable automatic sleep staging</a> has been accepted for <a href="https://www.nature.com/npjdigitalmed/">npj Digital Medicine</a></li>
                   <li><strong>10/2024</strong> — Abstract on <a href="https://onlinelibrary.wiley.com/doi/10.1111/jsr.14290">interpretable automatic sleep staging</a> has been accepted for oral presentation at <a href="https://esrs.eu/sleep-congress/">Sleep Europe 2024</a></li>
-                  <li><strong>08/2023</strong> — Paper on <a href="https://arxiv.org/abs/2309.02713">non-intrusive obstructive sleep apnea detection</a> has been accepted for <a href="https://cvamd.github.io/CVAMD2023/#call_for_paper">ICCV CVAMD 2023 workshop</a></li>
+                  <li><strong>08/2023</strong> — Paper on <a href="https://arxiv.org/abs/2309.02713">non-intrusive OSA detection</a> has been accepted for <a href="https://cvamd.github.io/CVAMD2023/#call_for_paper">ICCV CVAMD 2023 workshop</a></li>
                   <li><strong>03/2022</strong> — Started MS in Data Science <a href="https://gsds.snu.ac.kr/">Seoul National University Graduate School of Data Science</a></li>
                   </ul>
                 <p></p>
@@ -61,41 +61,48 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My research interests lie in developing <strong>Explainable AI</strong> methods for personalized diagnosis and treatment, with deployment in real-world clinical settings.  I am also interested in <strong>multi-modal time-series</strong> data, developing <strong>foundation models</strong> for solving multiple health-related downstream tasks.
+                  My research interests lie in developing <strong>Explainable AI</strong> methods for personalized diagnosis and treatment, with deployment in real-world clinical settings.  I am also interested in <strong>Multi-modal Time-series</strong> data, developing <strong>Foundation Models</strong> for solving multiple health-related downstream tasks.
                 </p>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
+            
     <tr onmouseout="sleepxvit_stop()" onmouseover="sleepxvit_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
+      <td style="padding:16px;width:30%;vertical-align:middle">
         <div class="one">
           <div class="two" id='sleepxvit_image'>
-          <img src='images/sleepxvit.png' width=100%>
+					  <img src='images/sleepxvit_after.png' width=100%>
+					</div>
+          <img src='images/sleepxvit_before.png' width=100%>
         </div>
         <script type="text/javascript">
           function bog_start() {
-            document.getElementById('bog_image').style.opacity = "1";
+            document.getElementById('sleepxvit_image').style.opacity = "1";
           }
 
           function bog_stop() {
-            document.getElementById('bog_image').style.opacity = "0";
+            document.getElementById('sleepxvit_image').style.opacity = "0";
           }
           bog_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://creiser.github.io/binary_opacity_grid/">
+        <a href="https://www.nature.com/articles/s41746-024-01378-0">
           <span class="papertitle">Explainable vision transformer for automatic visual sleep staging on multimodal PSG signals
 </span>
         </a>
         <br>
 				<strong>Hyojin Lee</strong>*, You Rim Choi*, Hyun Kyung Lee*, Jaemin Jeong, Joopyo Hong, Hyun-Woo Shin & Hyung-Sin Kim
         <p></p>
-        <p>
-        We present SleepXViT, an automatic sleep staging system using Vision Transformer (ViT) that provides intuitive, consistent explanations by mimicking human visual scoring. 
-        </p>
+        <br>
+        <em>npj Digital Medicine</em>
+        ", 2025"
+        <br>
+        <a href="https://github.com/sarahhyojin/SleepXViT">code</a>
+        "/"
+        <a href="https://www.nature.com/articles/s41746-024-01378-0">paper</a>
+        "/"
+        <a href="https://www.youtube.com/watch?v=-XFRh1yuGJI">youtube</a>
       </td>
     </tr>
             
