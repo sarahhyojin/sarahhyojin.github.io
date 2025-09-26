@@ -67,6 +67,37 @@
             </tr>
           </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr onmouseout="vosa_stop()" onmouseover="vosa_start()">
+      <td style="padding:8px;width:20%;vertical-align:middle">
+        <div class="one"">
+          <div class="two" id="vosa_image" style="opacity: 0;">
+					  <img src='images/vosa.png' width=160>
+					</div>
+          <img src='images/vosa.png' width=160>
+        </div>
+        <script type="text/javascript">
+          function vosa_start() {
+            document.getElementById('vosa_image').style.opacity = "1";
+          }
+
+          function vosa_stop() {
+            document.getElementById('vosa_image').style.opacity = "0";
+          }
+          vosa_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.researchgate.net/publication/395376524_Per-Second_Explainable_Obstructive_Sleep_Apnea_Detection_from_Multimodal_Time-Series_using_Vision_Transformer">
+          <span class="papertitle">Per-Second, Explainable Obstructive Sleep Apnea Detection from Multimodal Time-Series using Vision Transformer</span>
+        </a>
+        <br>
+				Joopyo Hong, Kunmin Jang, <strong>Hyojin Lee</strong>, Hyun Keun Ahn, Hyun-Woo Shin, Hyung-Sin Kim
+        <br>
+        <em>Under Review</em>, 2025
+        <br>
+      </td>
+    </tr>
+
     <tr onmouseout="sleepxvit_stop()" onmouseover="sleepxvit_start()">
       <td style="padding:8px;width:20%;vertical-align:middle">
         <div class="one"">
@@ -88,8 +119,7 @@
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://www.nature.com/articles/s41746-024-01378-0">
-          <span class="papertitle">Explainable vision transformer for automatic visual sleep staging on multimodal PSG signals
-</span>
+          <span class="papertitle">Explainable Vision Transformer for Automatic Visual Sleep Staging on Multimodal PSG Signals</span>
         </a>
         <br>
 				<strong>Hyojin Lee</strong>*, You Rim Choi*, Hyun Kyung Lee*, Jaemin Jeong, Joopyo Hong, Hyun-Woo Shin, Hyung-Sin Kim
@@ -125,8 +155,7 @@
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2309.02713">
-          <span class="papertitle">SlAction: Non-intrusive, Lightweight Obstructive Sleep Apnea Detection using Infrared Video
-</span>
+          <span class="papertitle">SlAction: Non-intrusive, Lightweight Obstructive Sleep Apnea Detection using Infrared Video</span>
         </a>
         <br>
 				 You Rim Choi, Gyeongseon Eo, Wonhyuck Youn, <strong>Hyojin Lee</strong>, Haemin Jang, Dongyoon Kim, Hyun-Woo Shin, Hyung-Sin Kim
